@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  font-family:Arial, Helvetica, sans-serif;
+ 
+}
+
+.App{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  box-shadow: 0 0 24px rgba(127, 170, 203, .22);
+  box-sizing: border-box;
+  justify-content: center;
+  margin-top: 70px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+ 
+}
+.App >div{
+  flex : 2 ;
+  
+}
+.input-icons {
+  position: relative;
+}
+.input-icons FaAt {
+  margin-left: -100px;
+  margin-right: -50px;
+  position: absolute;
+}
+h1{
+ color: rgba(5, 5, 5, 0.863);;
+}
+.Free{
+  margin-top:100px;
+  color: rgba(126, 124, 124, 0.863);
+}
+.create{
+  color: rgba(126, 124, 124, 0.863);
+  margin-top: 5px;
+}
+a{
+  color:rgb(46, 46, 230);
+  text-decoration: none;
+}
+
+img{
+  position: relative;
+  background-repeat: no-repeat;
+ 
+}
+h3{
+ color:rgb(46, 46, 230);
+  text-align: top;
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  left:140px;
+  right: 0;
+  height: fit-content;
+ 
+}
+
+.tol{
+  position: absolute;
+  top: 130px;
+  bottom: 0;
+  left:140px;
+  right: 0;
+  height: fit-content; 
+  color: rgba(126, 124, 124, 0.863);
+}
+label{
+  color: rgba(126, 124, 124, 0.863);
+}
+ input{
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+  position: relative;
+
+}
+placeholder{
+  color: rgba(126, 124, 124, 0.863);
+
+}
+
+button {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+  border-radius: 5px;
+
+}
+.createA{
+  background-color:rgb(46, 46, 230);
+  
+}
+.signupbtn{
+  color: #000;
+}
+.lastp{
+  color: rgba(126, 124, 124, 0.863);
+ 
+  margin-top: 40px;
+ 
+} 
+#lang{
+  justify-content: right;
+  margin-left: 200px;
+  border: none;
+  margin-top: 70px;
+  color: rgba(126, 124, 124, 0.863);
+}
+
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  position: relative;
+}
+
+.icon {
+  /* padding: 10px;
+  min-width: 40px; */
+  margin-right:100px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 25px;
+ 
+  
+}
